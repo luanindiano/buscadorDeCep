@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu CEP</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="pesquisa">
+            <h2 class="titulo">Digite seu CEP </h2>
+            <input class="digitaCEP" type="text" id="cep" maxlength="8">
+            <button class="botaoConsulta" onclick="consultaCEP()">Consultar</button>
+        </div>
+    </div>
+    <div class="areaRetornoDeValores" id="return">
+        <form action="">
+            <label for="">CEP </label>
+            <input type="text" id="numeroCEP">
+
+            <label for="">Rua/Av </label>
+            <input type="text" id="nomeRua">
+
+            <label for="">Bairro </label>
+            <input type="text" id="nomeBairro">
+
+            <label for="">Cidade </label>
+            <input type="text" id="nomeCidade">
+
+            <label for="">Estado </label>
+            <input type="text" id="nomeEstado">
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="js/consultas.js"></script>
+</html>

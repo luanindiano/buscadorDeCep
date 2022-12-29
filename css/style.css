@@ -1,0 +1,56 @@
+body{
+    font-family: 'Helvetica';
+    font-size: 1.2em;
+    color: black;
+    z-index: 0;
+    background-color: #e5e5e5;
+}
+.container{
+    border: 1px solid #061d17;
+    background-color: #061d17;
+    color: #e5e5e5;
+    z-index: 1;
+}
+.container input{
+    width: auto;
+    height: 30px;
+    font-size: 1em;
+}
+.pesquisa button{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #2bcaa6;
+    transition: 0.3s;
+    color: #e5e5e5;
+}
+.pesquisa button:hover{
+    background-color: #2bcaa6;
+    color: #FFF;
+}
+.areaRetornoDeValores, .pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+.pesquisa h2{
+    font-size: 1.3em;
+}
+.areaRetornoDeValores form label{
+    font-size: 0.9em;
+    margin-bottom: -7px;
+    color: gray;
+}
+.areaRetornoDeValores form, .pesquisa{
+    display: grid;
+    grid-template-columns: 250px;
+    row-gap: 10px;
+}
+form input{
+    width: auto;
+    height: 30px;
+    font-size: 1em;
+    color: gray;
+    border: 1px solid #FFF;
+}
